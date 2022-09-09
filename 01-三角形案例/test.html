@@ -7,13 +7,14 @@
     <title>三角形案例</title>
 </head>
 <style>
+/* 需要那个方向的三角形就把其他三个方向的颜色设置为 transparent */
     .box{
         width: 0;
         height: 0;
-        border-top: 20px solid yellow;
-        border-left: 20px solid red;
-        border-right: 20px solid blue;
-        border-bottom: 20px solid skyblue;
+        border-top: 20px solid transparent;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid red;
     }
 </style>
 <body>
