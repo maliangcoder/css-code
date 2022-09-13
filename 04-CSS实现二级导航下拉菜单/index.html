@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS实现二级导航下拉菜单</title>
+</head>
+<style>
+    body,
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .clearFix::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .menu {
+        width: 100%;
+        height: 60px;
+        background-color: #fd6a88;
+    }
+
+    .menu .menu-col {
+        width: 1000px;
+        height: 60px;
+        margin: 0 auto;
+    }
+
+    .menu .menu-col ul li {
+        width: 100px;
+        height: 60px;
+        float: left;
+        line-height: 60px;
+        text-align: center;
+        padding: 0 20px;
+        position: relative;
+    }
+
+    .menu .menu-col ul li:hover {
+        background-color: #e72f54;
+    }
+    .menu .menu-col ul li:hover div{
+        display: block;
+    }
+
+    .menu .menu-col ul li a {
+        width: 200px;
+        height: 60px;
+        color: #fff;
+    }
+    .menu .menu-col ul li div{
+        width: 200px;
+        position: absolute;
+        left: 50%;
+        margin-left: -70px;
+        top: 60px;
+        display: none;
+    }
+    .menu .menu-col ul li div ul li{
+        background-color: #e72f54;
+    }
+    .menu .menu-col ul li div ul li:hover{
+        background-color: #fd6a88;
+        
+    }
+</style>
+
+<body>
+    <div class="menu">
+        <div class="menu-col">
+            <ul class="clearFix">
+                <li>
+                    <a href="#">小米</a>
+                    <div>
+                        <ul>
+                            <li><a href="#">xiaomi a</a></li>
+                            <li> <a href="#">xiaomi</a></li>
+                            <li> <a href="#">xiaomi c</a></li>
+                            <li> <a href="#">xiaomi</a></li>
+                            <li> <a href="#">xiaomi e</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">华为</a>
+                    <div>
+                        <ul>
+                            <li><a href="#">xiaomi a</a></li>
+                            <li> <a href="#">xiaomi</a></li>
+                            <li> <a href="#">xiaomi c</a></li>
+                            <li> <a href="#">xiaomi</a></li>
+                            <li> <a href="#">xiaomi e</a></li>
+                        </ul>
+                    </div></li>
+                <li><a href="#">诺基亚</a></li>
+                <li><a href="#">苹果</a></li>
+                <li><a href="#">三星电子</a></li>
+                <li><a href="#">长虹卫视</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
