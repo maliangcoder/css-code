@@ -27,15 +27,44 @@
         background: linear-gradient(rgb(229, 147, 147) 0 0) 0/0% no-repeat #fff;
         animation: p1 2s infinite linear;
     }
+    .progress-2{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 120px;
+        height: 22px;
+        border-radius: 20px;
+        color: #514b82;
+        border: 2px solid;
+        position: relative;
+    }
+    .progress-2::before{
+        content: '';
+        position: absolute;
+        margin: 2px;
+        inset: 0 100% 0 0;
+        border-radius: inherit;
+        background: #514b82;
+        animation: p2 2s infinite;
+    }
     @keyframes p1{
         100% {
             background-size: 100%;
+        }
+    }
+    @keyframes p2 {
+        100% {
+            inset: 0;
         }
     }
 </style>
 
 <body>
     <div class="progress-1"></div>
+    <div class="progress-2"></div>
 </body>
 
 </html>
