@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="add text animation show or block">
+    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="add text rainbow animation effect">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-文本烟雾消失动画/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-文本烟雾消失动画/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-彩虹文字动画效果/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/07-彩虹文字动画效果/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Er7C0IO7AyE2RXl5FZ8gYIVOQc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,7 +41,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/ml/Desktop/study/css-codeing&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Font&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -61,7 +62,9 @@
       <workItem from="1663392454737" duration="396000" />
       <workItem from="1663392862578" duration="262000" />
       <workItem from="1663494123131" duration="4577000" />
-      <workItem from="1663859606016" duration="661000" />
+      <workItem from="1663859606016" duration="1057000" />
+      <workItem from="1663944915170" duration="289000" />
+      <workItem from="1663945215155" duration="1189000" />
     </task>
     <task id="LOCAL-00001" summary="add text animation show or block">
       <created>1663496985002</created>
@@ -77,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663496990638</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add text rainbow animation effect">
+      <created>1663860453301</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663860453301</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add text animation show or block" />
-    <option name="LAST_COMMIT_MESSAGE" value="add text animation show or block" />
+    <MESSAGE value="add text rainbow animation effect" />
+    <option name="LAST_COMMIT_MESSAGE" value="add text rainbow animation effect" />
   </component>
 </project>
