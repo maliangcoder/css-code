@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <title>CSS可折叠卡片悬停动画效果</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto',sans-serif;
+    }
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      min-height: 100vh;
+      background: #232323;
+    }
+    .card{
+      position: relative;
+      width: 300px;
+      height: 400px;
+      margin: 20px 20px;
+      background: #fff;
+      transform-style: preserve-3d;
+      transform: perspective(1000px);
+      box-shadow: 10px 20px 40px rgba(0,0,0,0.25);
+      transition: 1s;
+    }
+    .card:hover{
+      transform: translateX(50%);
+    }
+    .card .imgBox{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-origin: left;
+      z-index: 1;
+      transform-style: preserve-3d;
+      background: #000;
+      transition: 1s;
+    }
+    .card:hover .imgBox{
+      transform: rotateY(-180deg);
+      box-shadow: 10px 20px 40px rgba(0,0,0,0.25);
+    }
+    .card .imgBox img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform-style: preserve-3d;
+      backface-visibility: hidden;
+    }
+    .card .imgBox img:nth-child(2){
+      transform: rotateY(180deg);
+    }
+    .card .details{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card .details .content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .card .details h2{
+      text-align: center;
+      font-weight: 700;
+      line-height: 1em;
+    }
+    .card .details h2 span{
+      color: #00a6bc;
+      font-size: 0.8em;
+    }
+    .card .details .social-icons{
+      position: relative;
+      display: flex;
+      margin-top: 10px;
+    }
+    .card .details .social-icons a{
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      margin: 5px;
+      font-size: 18px;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      background: #333;
+      color: #fff;
+      transition: 0.2s;
+    }
+    .card .details .social-icons a:hover{
+      background: #00a6bc;
+    }
+  </style>
+</head>
+<body>
+<div class="card">
+  <div class="imgBox">
+    <img src="./image/1-201110161636.jpeg" alt="">
+    <img src="./image/apic26488.jpeg" alt="">
+  </div>
+  <div class="details">
+    <div class="content">
+      <h2>张三<br/><span>web前端开发</span></h2>
+      <div class="social-icons">
+        <a href="http://www.webqdkf.com" target="_blank"><i class="fa fa-qq" aria-hidden="true"></i></a>
+        <a href="http://www.webqdkf.com" target="_blank"><i class="fa fa-wechat" aria-hidden="true"></i></a>
+        <a href="http://www.webqdkf.com" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+        <a href="http://www.webqdkf.com" target="_blank"><i class="fa fa-renren" aria-hidden="true"></i></a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
