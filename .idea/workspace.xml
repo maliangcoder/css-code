@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="CSS登录框动画效果">
+    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="点击忘记密码新开浏览器网页">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS实现登陆表单边框动画效果/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS实现登陆表单边框动画效果/index.html" afterDir="false" />
     </list>
@@ -70,7 +70,7 @@
       <workItem from="1664029578616" duration="2475000" />
       <workItem from="1664246884330" duration="5000" />
       <workItem from="1664246959491" duration="49000" />
-      <workItem from="1664611845937" duration="3748000" />
+      <workItem from="1664611845937" duration="5289000" />
     </task>
     <task id="LOCAL-00001" summary="add text animation show or block">
       <created>1663496985002</created>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664622667355</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="点击忘记密码新开浏览器网页">
+      <created>1664622781791</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664622781791</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +152,7 @@
     <MESSAGE value="add card transform" />
     <MESSAGE value="update" />
     <MESSAGE value="CSS登录框动画效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS登录框动画效果" />
+    <MESSAGE value="点击忘记密码新开浏览器网页" />
+    <option name="LAST_COMMIT_MESSAGE" value="点击忘记密码新开浏览器网页" />
   </component>
 </project>
