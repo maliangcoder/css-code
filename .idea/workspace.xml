@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="add text rainbow animation effect">
+    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="add card transform">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/09-CSS实现可折叠卡片悬停动画效果/image" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -64,7 +65,10 @@
       <workItem from="1663494123131" duration="4577000" />
       <workItem from="1663859606016" duration="1057000" />
       <workItem from="1663944915170" duration="289000" />
-      <workItem from="1663945215155" duration="1189000" />
+      <workItem from="1663945215155" duration="1316000" />
+      <workItem from="1664029578616" duration="2475000" />
+      <workItem from="1664246884330" duration="5000" />
+      <workItem from="1664246959491" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="add text animation show or block">
       <created>1663496985002</created>
@@ -87,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663860453301</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add text 07">
+      <created>1663948793632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663948793632</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add card transform">
+      <created>1664031346557</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664031346557</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +125,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add text animation show or block" />
     <MESSAGE value="add text rainbow animation effect" />
-    <option name="LAST_COMMIT_MESSAGE" value="add text rainbow animation effect" />
+    <MESSAGE value="add text 07" />
+    <MESSAGE value="add card transform" />
+    <option name="LAST_COMMIT_MESSAGE" value="add card transform" />
   </component>
 </project>
