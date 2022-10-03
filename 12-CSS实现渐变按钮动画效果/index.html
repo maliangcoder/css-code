@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS实现渐变按钮动画</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh
+        }
+
+        .container {
+            width: 1200px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .container a {
+            position: relative;
+            display: inline-block;
+            padding: 10px 30px;
+            margin: 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 16px;
+            color: #fff;
+            transition: 0.5s;
+        }
+
+        .container a:nth-child(1) {
+            background: linear-gradient(to right, #c6ffdd, #fbd786, #f64f59);
+            background-size: 200%;
+        }
+
+        .container a:nth-child(2) {
+            background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+            background-size: 200%;
+        }
+
+        .container a:nth-child(3) {
+            background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+            background-size: 200%;
+        }
+
+        .container a:nth-child(4) {
+            background: linear-gradient(to right, #4481eb, #04befe, #4481eb);
+            background-size: 200%;
+        }
+
+        .container a:nth-child(5) {
+            background: linear-gradient(to right, #1e9600, #fff200, #ff0000);
+            background-size: 200%;
+        }
+
+        .container a:nth-child(6) {
+            background: linear-gradient(to right, #fdfc47, #24fe41, #fdfc47);
+            background-size: 200%;
+        }
+
+        .container a:hover{
+            background-position-x: 100%;
+            transform: translateY(-15px);
+        }
+        .container a:after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background: rgba(225,255,255,.2);
+        }
+
+        .container a:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 5%;
+            width: 90%;
+            height: 4px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 50%;
+            transform: scale(0);
+            transition: 0.5s;
+            filter: blur(5px);
+            z-index: -1;
+        }
+
+        .container a:hover:before {
+            transform: scale(1);
+            bottom: -15px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="https://webqdkf.com">首页</a>
+    <a href="https://webqdkf.com/adkf">前端技术</a>
+    <a href="https://webqdkf.com/code">源码案例</a>
+    <a href="https://webqdkf.com/mb">建站模版</a>
+    <a href="https://www.aierweisi.com">建站主机</a>
+    <a href="https://webqdkf.com">资源导航</a>
+</div>
+</body>
+</html>
