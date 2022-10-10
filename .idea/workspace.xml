@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="点击忘记密码新开浏览器网页">
+    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="css实现创意导航菜单动画效果">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS实现登陆表单边框动画效果/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS实现登陆表单边框动画效果/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/01-三角形案例" />
       <recent name="$PROJECT_DIR$/09-CSS实现可折叠卡片悬停动画效果/image" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -70,7 +70,14 @@
       <workItem from="1664029578616" duration="2475000" />
       <workItem from="1664246884330" duration="5000" />
       <workItem from="1664246959491" duration="49000" />
-      <workItem from="1664611845937" duration="5289000" />
+      <workItem from="1664611845937" duration="5921000" />
+      <workItem from="1664724951054" duration="3169000" />
+      <workItem from="1664778576233" duration="2208000" />
+      <workItem from="1664890482212" duration="1177000" />
+      <workItem from="1665071564348" duration="1206000" />
+      <workItem from="1665072780040" duration="986000" />
+      <workItem from="1665133978381" duration="1677000" />
+      <workItem from="1665279837491" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="add text animation show or block">
       <created>1663496985002</created>
@@ -128,7 +135,49 @@
       <option name="project" value="LOCAL" />
       <updated>1664622781791</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="内容修改">
+      <created>1664630828114</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664630828114</updated>
+    </task>
+    <task id="LOCAL-00010" summary="更改文件名">
+      <created>1664725558977</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664725558977</updated>
+    </task>
+    <task id="LOCAL-00011" summary="数字时钟CSS">
+      <created>1664728102058</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664728102058</updated>
+    </task>
+    <task id="LOCAL-00012" summary="CSS渐变动画效果">
+      <created>1664780277318</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664780277318</updated>
+    </task>
+    <task id="LOCAL-00013" summary="CSS实现炫酷文字动画效果">
+      <created>1664891044003</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664891044003</updated>
+    </task>
+    <task id="LOCAL-00014" summary="css实现创意导航菜单动画效果">
+      <created>1665134320535</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665134320535</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +202,12 @@
     <MESSAGE value="update" />
     <MESSAGE value="CSS登录框动画效果" />
     <MESSAGE value="点击忘记密码新开浏览器网页" />
-    <option name="LAST_COMMIT_MESSAGE" value="点击忘记密码新开浏览器网页" />
+    <MESSAGE value="内容修改" />
+    <MESSAGE value="更改文件名" />
+    <MESSAGE value="数字时钟CSS" />
+    <MESSAGE value="CSS渐变动画效果" />
+    <MESSAGE value="CSS实现炫酷文字动画效果" />
+    <MESSAGE value="css实现创意导航菜单动画效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="css实现创意导航菜单动画效果" />
   </component>
 </project>
