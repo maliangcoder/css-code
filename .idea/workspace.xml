@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="css实现创意导航菜单动画效果">
+    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="css实现文本裁剪gif动画效果">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,12 +41,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/ml/Desktop/study/css-codeing&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/20-鼠标拖拽效果实现" />
       <recent name="$PROJECT_DIR$/01-三角形案例" />
       <recent name="$PROJECT_DIR$/09-CSS实现可折叠卡片悬停动画效果/image" />
       <recent name="$PROJECT_DIR$" />
@@ -78,7 +79,20 @@
       <workItem from="1665072780040" duration="986000" />
       <workItem from="1665133978381" duration="1677000" />
       <workItem from="1665279837491" duration="16000" />
-      <workItem from="1665583737905" duration="922000" />
+      <workItem from="1665583737905" duration="4132000" />
+      <workItem from="1665672523531" duration="883000" />
+      <workItem from="1665673906188" duration="1001000" />
+      <workItem from="1665818418834" duration="1489000" />
+      <workItem from="1665912804356" duration="88000" />
+      <workItem from="1665912896814" duration="4317000" />
+      <workItem from="1665996875451" duration="172000" />
+      <workItem from="1665997053907" duration="2937000" />
+      <workItem from="1666087649642" duration="2722000" />
+      <workItem from="1666363037776" duration="1214000" />
+      <workItem from="1666515777619" duration="1219000" />
+      <workItem from="1666517042400" duration="1604000" />
+      <workItem from="1666795926935" duration="1376000" />
+      <workItem from="1666883944093" duration="1079000" />
     </task>
     <task id="LOCAL-00001" summary="add text animation show or block">
       <created>1663496985002</created>
@@ -178,7 +192,63 @@
       <option name="project" value="LOCAL" />
       <updated>1665134320535</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="CSS实现输入文本动画效果">
+      <created>1665819179068</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665819179068</updated>
+    </task>
+    <task id="LOCAL-00016" summary="CSS实现扫描二维码动画效果（修改）">
+      <created>1665819305479</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665819305479</updated>
+    </task>
+    <task id="LOCAL-00017" summary="CSS实现文字hover效果">
+      <created>1665934055196</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665934055196</updated>
+    </task>
+    <task id="LOCAL-00018" summary="CSS实现有创意的删除按钮动画">
+      <created>1666012920290</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666012920290</updated>
+    </task>
+    <task id="LOCAL-00019" summary="鼠标拖拽效果">
+      <created>1666088832239</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1666088832239</updated>
+    </task>
+    <task id="LOCAL-00020" summary="CSS分层彩色文本效果">
+      <created>1666363652454</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1666363652454</updated>
+    </task>
+    <task id="LOCAL-00021" summary="CSS实现动画菜单效果">
+      <created>1666517807308</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1666517807308</updated>
+    </task>
+    <task id="LOCAL-00022" summary="css实现文本裁剪gif动画效果">
+      <created>1666884645579</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1666884645579</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +279,14 @@
     <MESSAGE value="CSS渐变动画效果" />
     <MESSAGE value="CSS实现炫酷文字动画效果" />
     <MESSAGE value="css实现创意导航菜单动画效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="css实现创意导航菜单动画效果" />
+    <MESSAGE value="CSS实现输入文本动画效果" />
+    <MESSAGE value="CSS实现扫描二维码动画效果（修改）" />
+    <MESSAGE value="CSS实现文字hover效果" />
+    <MESSAGE value="CSS实现有创意的删除按钮动画" />
+    <MESSAGE value="鼠标拖拽效果" />
+    <MESSAGE value="CSS分层彩色文本效果" />
+    <MESSAGE value="CSS实现动画菜单效果" />
+    <MESSAGE value="css实现文本裁剪gif动画效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="css实现文本裁剪gif动画效果" />
   </component>
 </project>
