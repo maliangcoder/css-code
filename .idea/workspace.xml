@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="css实现文本裁剪gif动画效果">
+    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="CSS实现边框动画效果">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/29-3D搜索框的实现/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/29-3D搜索框的实现/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/25-咖啡杯挪动开关动画效果" />
       <recent name="$PROJECT_DIR$/20-鼠标拖拽效果实现" />
       <recent name="$PROJECT_DIR$/01-三角形案例" />
       <recent name="$PROJECT_DIR$/09-CSS实现可折叠卡片悬停动画效果/image" />
@@ -93,6 +95,13 @@
       <workItem from="1666517042400" duration="1604000" />
       <workItem from="1666795926935" duration="1376000" />
       <workItem from="1666883944093" duration="1079000" />
+      <workItem from="1666971971359" duration="647000" />
+      <workItem from="1667047023059" duration="1492000" />
+      <workItem from="1667134682920" duration="1933000" />
+      <workItem from="1667230786104" duration="1471000" />
+      <workItem from="1667308190574" duration="1126000" />
+      <workItem from="1667367533437" duration="63000" />
+      <workItem from="1667399077129" duration="1018000" />
     </task>
     <task id="LOCAL-00001" summary="add text animation show or block">
       <created>1663496985002</created>
@@ -248,7 +257,42 @@
       <option name="project" value="LOCAL" />
       <updated>1666884645579</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="IDE">
+      <created>1666972019123</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1666972019123</updated>
+    </task>
+    <task id="LOCAL-00024" summary="css实现咖啡杯动画效果">
+      <created>1667047984151</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1667047984151</updated>
+    </task>
+    <task id="LOCAL-00025" summary="css实现下雨动画效果">
+      <created>1667135541424</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1667135541424</updated>
+    </task>
+    <task id="LOCAL-00026" summary="css实现文本3D旋转效果">
+      <created>1667231656883</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1667231656883</updated>
+    </task>
+    <task id="LOCAL-00027" summary="CSS实现边框动画效果">
+      <created>1667308716266</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1667308716266</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +310,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add text animation show or block" />
     <MESSAGE value="add text rainbow animation effect" />
     <MESSAGE value="add text 07" />
     <MESSAGE value="add card transform" />
@@ -287,6 +330,11 @@
     <MESSAGE value="CSS分层彩色文本效果" />
     <MESSAGE value="CSS实现动画菜单效果" />
     <MESSAGE value="css实现文本裁剪gif动画效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="css实现文本裁剪gif动画效果" />
+    <MESSAGE value="IDE" />
+    <MESSAGE value="css实现咖啡杯动画效果" />
+    <MESSAGE value="css实现下雨动画效果" />
+    <MESSAGE value="css实现文本3D旋转效果" />
+    <MESSAGE value="CSS实现边框动画效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS实现边框动画效果" />
   </component>
 </project>
