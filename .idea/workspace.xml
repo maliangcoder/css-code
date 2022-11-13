@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="CSS实现边框动画效果">
+    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="css实现按钮悬停动画效果">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/29-3D搜索框的实现/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/29-3D搜索框的实现/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,11 @@
       <workItem from="1667230786104" duration="1471000" />
       <workItem from="1667308190574" duration="1126000" />
       <workItem from="1667367533437" duration="63000" />
-      <workItem from="1667399077129" duration="1018000" />
+      <workItem from="1667399077129" duration="1674000" />
+      <workItem from="1667479422404" duration="1501000" />
+      <workItem from="1667567937128" duration="1402000" />
+      <workItem from="1667659837248" duration="446000" />
+      <workItem from="1667736608418" duration="1755000" />
     </task>
     <task id="LOCAL-00001" summary="add text animation show or block">
       <created>1663496985002</created>
@@ -292,7 +295,49 @@
       <option name="project" value="LOCAL" />
       <updated>1667308716266</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="css3D搜索框的实现">
+      <created>1667400144768</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1667400144768</updated>
+    </task>
+    <task id="LOCAL-00029" summary="css3D搜索框的实现">
+      <created>1667400155411</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1667400155411</updated>
+    </task>
+    <task id="LOCAL-00030" summary="css实现彩色旋转方块动画效果">
+      <created>1667480414840</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1667480414840</updated>
+    </task>
+    <task id="LOCAL-00031" summary="css创意菜单栏的文本动画效果">
+      <created>1667568739411</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1667568739411</updated>
+    </task>
+    <task id="LOCAL-00032" summary="css实现文本动画效果">
+      <created>1667660187212</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1667660187212</updated>
+    </task>
+    <task id="LOCAL-00033" summary="css实现按钮悬停动画效果">
+      <created>1667737765163</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1667737765163</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,11 +355,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add text rainbow animation effect" />
-    <MESSAGE value="add text 07" />
-    <MESSAGE value="add card transform" />
-    <MESSAGE value="update" />
-    <MESSAGE value="CSS登录框动画效果" />
     <MESSAGE value="点击忘记密码新开浏览器网页" />
     <MESSAGE value="内容修改" />
     <MESSAGE value="更改文件名" />
@@ -335,6 +375,11 @@
     <MESSAGE value="css实现下雨动画效果" />
     <MESSAGE value="css实现文本3D旋转效果" />
     <MESSAGE value="CSS实现边框动画效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS实现边框动画效果" />
+    <MESSAGE value="css3D搜索框的实现" />
+    <MESSAGE value="css实现彩色旋转方块动画效果" />
+    <MESSAGE value="css创意菜单栏的文本动画效果" />
+    <MESSAGE value="css实现文本动画效果" />
+    <MESSAGE value="css实现按钮悬停动画效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="css实现按钮悬停动画效果" />
   </component>
 </project>
