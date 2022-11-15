@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="css实现按钮悬停动画效果">
+    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="css实现美丽画卷折叠效果">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +47,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/35-美丽画卷折叠效果" />
       <recent name="$PROJECT_DIR$/25-咖啡杯挪动开关动画效果" />
       <recent name="$PROJECT_DIR$/20-鼠标拖拽效果实现" />
       <recent name="$PROJECT_DIR$/01-三角形案例" />
       <recent name="$PROJECT_DIR$/09-CSS实现可折叠卡片悬停动画效果/image" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -105,6 +105,7 @@
       <workItem from="1667567937128" duration="1402000" />
       <workItem from="1667659837248" duration="446000" />
       <workItem from="1667736608418" duration="1755000" />
+      <workItem from="1668437544749" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="add text animation show or block">
       <created>1663496985002</created>
@@ -337,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667737765163</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="css实现美丽画卷折叠效果">
+      <created>1668438164321</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1668438164321</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +363,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="点击忘记密码新开浏览器网页" />
     <MESSAGE value="内容修改" />
     <MESSAGE value="更改文件名" />
     <MESSAGE value="数字时钟CSS" />
@@ -380,6 +387,7 @@
     <MESSAGE value="css创意菜单栏的文本动画效果" />
     <MESSAGE value="css实现文本动画效果" />
     <MESSAGE value="css实现按钮悬停动画效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="css实现按钮悬停动画效果" />
+    <MESSAGE value="css实现美丽画卷折叠效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="css实现美丽画卷折叠效果" />
   </component>
 </project>
