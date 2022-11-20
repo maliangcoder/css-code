@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="css实现美丽画卷折叠效果">
+    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="css实现一个有趣的像素艺术画">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +47,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/38-马赛克艺术画" />
       <recent name="$PROJECT_DIR$/35-美丽画卷折叠效果" />
       <recent name="$PROJECT_DIR$/25-咖啡杯挪动开关动画效果" />
       <recent name="$PROJECT_DIR$/20-鼠标拖拽效果实现" />
       <recent name="$PROJECT_DIR$/01-三角形案例" />
-      <recent name="$PROJECT_DIR$/09-CSS实现可折叠卡片悬停动画效果/image" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -106,6 +106,10 @@
       <workItem from="1667659837248" duration="446000" />
       <workItem from="1667736608418" duration="1755000" />
       <workItem from="1668437544749" duration="694000" />
+      <workItem from="1668562340072" duration="4358000" />
+      <workItem from="1668697724766" duration="1014000" />
+      <workItem from="1668781275739" duration="1561000" />
+      <workItem from="1668870691615" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="add text animation show or block">
       <created>1663496985002</created>
@@ -345,7 +349,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668438164321</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="css3D动画加载">
+      <created>1668565555601</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1668565555601</updated>
+    </task>
+    <task id="LOCAL-00036" summary="css实现动画下拉菜单的效果">
+      <created>1668698708665</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1668698708665</updated>
+    </task>
+    <task id="LOCAL-00037" summary="css实现一个有趣的像素艺术画">
+      <created>1668782280923</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1668782280923</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,9 +388,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="内容修改" />
-    <MESSAGE value="更改文件名" />
-    <MESSAGE value="数字时钟CSS" />
     <MESSAGE value="CSS渐变动画效果" />
     <MESSAGE value="CSS实现炫酷文字动画效果" />
     <MESSAGE value="css实现创意导航菜单动画效果" />
@@ -388,6 +410,9 @@
     <MESSAGE value="css实现文本动画效果" />
     <MESSAGE value="css实现按钮悬停动画效果" />
     <MESSAGE value="css实现美丽画卷折叠效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="css实现美丽画卷折叠效果" />
+    <MESSAGE value="css3D动画加载" />
+    <MESSAGE value="css实现动画下拉菜单的效果" />
+    <MESSAGE value="css实现一个有趣的像素艺术画" />
+    <option name="LAST_COMMIT_MESSAGE" value="css实现一个有趣的像素艺术画" />
   </component>
 </project>
