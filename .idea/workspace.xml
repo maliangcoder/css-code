@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="css实现一个有趣的像素艺术画">
+    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="tailwind-css实现输入密码强度即可查看图片清晰度效果">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,25 +33,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ml/Desktop/study/css-codeing&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/ml/Desktop/study/css-codeing/CSS案例/Tailwind-css实现输入密码即可查看图片清晰度",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CSS案例/Tailwind-css实现输入密码即可查看图片清晰度" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CSS案例" />
       <recent name="$PROJECT_DIR$/38-马赛克艺术画" />
       <recent name="$PROJECT_DIR$/35-美丽画卷折叠效果" />
       <recent name="$PROJECT_DIR$/25-咖啡杯挪动开关动画效果" />
       <recent name="$PROJECT_DIR$/20-鼠标拖拽效果实现" />
-      <recent name="$PROJECT_DIR$/01-三角形案例" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -110,6 +113,14 @@
       <workItem from="1668697724766" duration="1014000" />
       <workItem from="1668781275739" duration="1561000" />
       <workItem from="1668870691615" duration="96000" />
+      <workItem from="1668907644043" duration="905000" />
+      <workItem from="1669045410358" duration="451000" />
+      <workItem from="1669131227951" duration="451000" />
+      <workItem from="1669131923937" duration="106000" />
+      <workItem from="1669215369713" duration="415000" />
+      <workItem from="1669295322953" duration="2136000" />
+      <workItem from="1669339421091" duration="307000" />
+      <workItem from="1669386743969" duration="1624000" />
     </task>
     <task id="LOCAL-00001" summary="add text animation show or block">
       <created>1663496985002</created>
@@ -370,7 +381,49 @@
       <option name="project" value="LOCAL" />
       <updated>1668782280923</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="change directory">
+      <created>1668907864415</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1668907864415</updated>
+    </task>
+    <task id="LOCAL-00039" summary="css实现文字动画效果">
+      <created>1669045771735</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1669045771735</updated>
+    </task>
+    <task id="LOCAL-00040" summary="change background color">
+      <created>1669131324043</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1669131324043</updated>
+    </task>
+    <task id="LOCAL-00041" summary="更正css样式类名">
+      <created>1669215665330</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1669215665330</updated>
+    </task>
+    <task id="LOCAL-00042" summary="css实现3D菜单效果">
+      <created>1669297066231</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1669297066231</updated>
+    </task>
+    <task id="LOCAL-00043" summary="tailwind-css实现输入密码强度即可查看图片清晰度效果">
+      <created>1669387771935</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1669387771935</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,12 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CSS渐变动画效果" />
-    <MESSAGE value="CSS实现炫酷文字动画效果" />
-    <MESSAGE value="css实现创意导航菜单动画效果" />
-    <MESSAGE value="CSS实现输入文本动画效果" />
-    <MESSAGE value="CSS实现扫描二维码动画效果（修改）" />
-    <MESSAGE value="CSS实现文字hover效果" />
     <MESSAGE value="CSS实现有创意的删除按钮动画" />
     <MESSAGE value="鼠标拖拽效果" />
     <MESSAGE value="CSS分层彩色文本效果" />
@@ -413,6 +460,12 @@
     <MESSAGE value="css3D动画加载" />
     <MESSAGE value="css实现动画下拉菜单的效果" />
     <MESSAGE value="css实现一个有趣的像素艺术画" />
-    <option name="LAST_COMMIT_MESSAGE" value="css实现一个有趣的像素艺术画" />
+    <MESSAGE value="change directory" />
+    <MESSAGE value="css实现文字动画效果" />
+    <MESSAGE value="change background color" />
+    <MESSAGE value="更正css样式类名" />
+    <MESSAGE value="css实现3D菜单效果" />
+    <MESSAGE value="tailwind-css实现输入密码强度即可查看图片清晰度效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="tailwind-css实现输入密码强度即可查看图片清晰度效果" />
   </component>
 </project>
