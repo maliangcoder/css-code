@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="tailwind-css实现输入密码强度即可查看图片清晰度效果">
+    <list default="true" id="ee454f4c-81a7-4f5b-b988-fb852e28b39c" name="Changes" comment="css实现一款输入文本动画效果">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,18 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ml/Desktop/study/css-codeing/CSS案例/Tailwind-css实现输入密码即可查看图片清晰度",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ml/Desktop/study/css-codeing/CSS案例/Tailwind-css实现输入密码即可查看图片清晰度&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CSS案例/Tailwind-css实现输入密码即可查看图片清晰度" />
@@ -121,6 +121,8 @@
       <workItem from="1669295322953" duration="2136000" />
       <workItem from="1669339421091" duration="307000" />
       <workItem from="1669386743969" duration="1624000" />
+      <workItem from="1669475662081" duration="179000" />
+      <workItem from="1669646664329" duration="721000" />
     </task>
     <task id="LOCAL-00001" summary="add text animation show or block">
       <created>1663496985002</created>
@@ -423,7 +425,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669387771935</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="update IDE">
+      <created>1669475685763</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1669475685763</updated>
+    </task>
+    <task id="LOCAL-00045" summary="添加文件序号">
+      <created>1669475818731</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1669475818731</updated>
+    </task>
+    <task id="LOCAL-00046" summary="css实现一款输入文本动画效果">
+      <created>1669647301581</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1669647301581</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,9 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CSS实现有创意的删除按钮动画" />
-    <MESSAGE value="鼠标拖拽效果" />
-    <MESSAGE value="CSS分层彩色文本效果" />
     <MESSAGE value="CSS实现动画菜单效果" />
     <MESSAGE value="css实现文本裁剪gif动画效果" />
     <MESSAGE value="IDE" />
@@ -466,6 +486,9 @@
     <MESSAGE value="更正css样式类名" />
     <MESSAGE value="css实现3D菜单效果" />
     <MESSAGE value="tailwind-css实现输入密码强度即可查看图片清晰度效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="tailwind-css实现输入密码强度即可查看图片清晰度效果" />
+    <MESSAGE value="update IDE" />
+    <MESSAGE value="添加文件序号" />
+    <MESSAGE value="css实现一款输入文本动画效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="css实现一款输入文本动画效果" />
   </component>
 </project>
