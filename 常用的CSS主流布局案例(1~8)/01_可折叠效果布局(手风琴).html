@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>可折叠效果布局(手风琴)</title>
+    <style>
+        .accordion {
+            border: 1px solid #ddd;
+            border-bottom-color: transparent;
+            border-radius: 4px;
+        }
+
+        .accordion-item {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .accordion-header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            cursor: pointer;
+        }
+
+        .accordion-icon {
+            margin-right: 12px;
+            color: #ddd;
+            flex-shrink: 0; /* 不缩放 */
+            font-size: 20px;
+        }
+
+        /*  选中后，显示的图标  */
+        .accordion-icon__selected {
+            transform: rotate(90deg);
+        }
+
+        /* 新闻标题 */
+        .accordion-title{
+            /* flex:1 相当于一下代码的简写 flex-grow:1;flex-shrink:1;flex-basis:0; */
+            flex: 1;
+            font-size: 16px;
+        }
+        .accordion-content {
+            display: none;
+            padding: 10px;
+            font-size: 14px;
+        }
+        .accordion-content__selected{
+            /* 选中后，显示的内容 */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="accordion">
+    <!--  折叠项开始  -->
+    <div class="accordion-item">
+        <div class="accordion-header">
+            <!--    可折叠小图标    -->
+            <span class="accordion-icon iconfont icon-xiangyou"></span>
+            <!-- 标题 -->
+            <div class="accordion-title">......</div>
+        </div>
+        <div class="accordion-content"></div>
+    </div>
+    <!--  折叠项结束  -->
+    <!--  折叠项开始  -->
+    <div class="accordion-item">
+        <div class="accordion-header">
+            <!--    通过js在添加和删除accordion-content__selected样式    -->
+            <span class="accordion-icon iconfont icon-xiangyou accordion-icon__selected"></span>
+            <!-- 标题 -->
+            <div class="accordion-title">......</div>
+        </div>
+        <div class="accordion-content accordion-content__selected">
+            ........
+        </div>
+    </div>
+    <!--  折叠项结束  -->
+</div>
+</body>
+</html>
