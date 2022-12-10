@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>凹角2布局</title>
+  <style>
+    :root{
+      --concave-corners-background:pink;
+      --concave-corners-size: 20px;
+    }
+    .concave-corners {
+      background-color: var(--concave-corners-background);
+      position: relative;
+      min-height: 100px;
+    }
+    .concave-corners__corner {
+      position: absolute;
+      height: var(--concave-corners-size);
+      width: var(--concave-corners-size);
+      background: #fff;
+    }
+    .concave-corners--tl {
+      left: 0;
+      top: 0;
+      border-radius: 0 0 var(--concave-corners-size) 0;
+    }
+    .concave-corners--tr {
+      right: 0;
+      top: 0;
+      border-radius: 0 0 0 var(--concave-corners-size);
+    }
+    .concave-corners--bl {
+      bottom: 0;
+      left: 0;
+      border-radius: 0 var(--concave-corners-size) 0 0;
+    }
+    .concave-corners--br {
+      bottom: 0;
+      right: 0;
+      border-radius: var(--concave-corners-size) 0 0 0;
+    }
+  </style>
+</head>
+<body>
+<div class="concave-corners">
+<!-- 左上角 -->
+  <div class="concave-corners__corner concave-corners--tl"></div>
+  <div class="concave-corners__corner concave-corners--tr"></div>
+  <div class="concave-corners__corner concave-corners--bl"></div>
+  <div class="concave-corners__corner concave-corners--br"></div>
+  ...
+</div>
+</body>
+</html>
