@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css实现拐角丝带</title>
+  <style>
+    .container {
+      position: relative;
+      border: 1px solid #ddd;
+      min-height: 200px;
+      overflow: hidden;
+    }
+    .container-ribbon {
+      height: 24px;
+      width: 206px;
+      position: absolute;
+      top: 32px;
+      left: -64px;
+      transform: rotate(-45deg);
+      background-color: red;
+      text-align: center;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+<!-- 丝带 -->
+  <div class="container-ribbon">hot</div>
+<!-- 内容区 -->
+  <div class="container-content">...</div>
+</div>
+</body>
+</html>
