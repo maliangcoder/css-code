@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>斜切布局</title>
+  <style>
+    .diagonal {
+      margin: 100px auto;
+      width: 400px;
+      min-height: 200px;
+      position: relative;
+      padding: 20px;
+    }
+    .diagonal::before {
+      display: block;
+      content: '';
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: skewY(-5deg);
+      background-color: pink;
+      z-index: -1;
+    }
+
+  </style>
+</head>
+<body>
+<div class="diagonal">.......内容区</div>
+</body>
+</html>
