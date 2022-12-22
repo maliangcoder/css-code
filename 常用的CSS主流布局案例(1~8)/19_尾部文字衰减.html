@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css实现尾部文字衰减</title>
+  <style>
+    .container {
+      position: relative;
+      width: 100px;
+      border: 1px solid #ddd;
+    }
+    .container-content {
+      height: 200px;
+      overflow-y: scroll;
+    }
+    .container-fading {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 30px;
+      width: 100%;
+      background: linear-gradient(rgba(0,0,0,0.01),#fff);
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="container-content">
+    ......尾部文字衰减
+    ......尾部文字衰减
+    ......尾部文字衰减
+    ......尾部文字衰减
+    ......尾部文字衰减
+    ......尾部文字衰减
+    ......尾部文字衰减
+    ......尾部文字衰减
+    ......尾部文字衰减
+  </div>
+  <div class="container-fading"></div>
+</div>
+</body>
+</html>
