@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拐角三角形</title>
+    <style>
+        .container {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+        }
+
+        .container-corner--tl {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 60px;
+            height: 60px;
+        }
+
+        .container-corner--tl::after {
+            position: absolute;
+            content: '推荐';
+            left: 0;
+            top: 0;
+            width: 60px;
+            height: 60px;
+            transform: rotate(-45deg);
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            line-height: 2;
+        }
+
+        .container-corner--tl::before {
+            content: "";
+            width: 0;
+            position: absolute;
+            left: 0;
+            top: 0;
+            border: 30px solid transparent;
+            border-top: 30px solid red;
+            border-left: 30px solid red;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="container-corner container-corner--tl">推荐</div>
+    ......
+</div>
+</body>
+</html>
