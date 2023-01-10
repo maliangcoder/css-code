@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>价格标签</title>
+    <style>
+        :root {
+            --price-tag-background: red;
+            --price-tag-height: 32px;
+        }
+
+        .price-tag {
+            margin-left: 30px;
+            position: relative;
+            max-width: 80px;
+            padding: 0 5px;
+            height: var(--price-tag-height);
+            background: var(--price-tag-background);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .price-tag::before {
+            content: "";
+            border: calc(var(--price-tag-height) / 2) solid transparent;
+            border-right-color: red;
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: translate(-100%, 0);
+        }
+
+        .price-tag::after {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background: #fff;
+            border-radius: 9999rem;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+<div class="price-tag">¥99.09</div>
+</body>
+</html>
