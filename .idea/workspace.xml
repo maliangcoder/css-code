@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dda21949-21b2-48d8-bfe5-0cd9c0783e67" name="变更" comment="css实现左右列表布局">
+    <list default="true" id="dda21949-21b2-48d8-bfe5-0cd9c0783e67" name="变更" comment="css实现价格标签">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +36,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -75,6 +76,18 @@
       <workItem from="1671720872747" duration="1034000" />
       <workItem from="1671893586371" duration="858000" />
       <workItem from="1671951662975" duration="1170000" />
+      <workItem from="1672070055462" duration="31000" />
+      <workItem from="1672149664142" duration="940000" />
+      <workItem from="1672235030962" duration="206000" />
+      <workItem from="1672328068287" duration="825000" />
+      <workItem from="1672414184621" duration="1192000" />
+      <workItem from="1672571997813" duration="2165000" />
+      <workItem from="1672835730355" duration="797000" />
+      <workItem from="1672930554410" duration="727000" />
+      <workItem from="1673106385891" duration="531000" />
+      <workItem from="1673192220248" duration="967000" />
+      <workItem from="1673271511264" duration="944000" />
+      <workItem from="1673362522655" duration="960000" />
     </task>
     <task id="LOCAL-00002" summary="css实现不同方向箭头">
       <created>1669994550091</created>
@@ -216,7 +229,105 @@
       <option name="project" value="LOCAL" />
       <updated>1671952207997</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ide-update">
+      <created>1672070076326</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1672070076326</updated>
+    </task>
+    <task id="LOCAL-00023" summary="css实现拐角三角形">
+      <created>1672150002813</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1672150002813</updated>
+    </task>
+    <task id="LOCAL-00024" summary="css实现右侧悬浮菜单">
+      <created>1672235206161</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1672235206161</updated>
+    </task>
+    <task id="LOCAL-00025" summary="css实现文件夹结构">
+      <created>1672328727656</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1672328727656</updated>
+    </task>
+    <task id="LOCAL-00026" summary="css实现文件夹结构">
+      <created>1672328877285</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1672328877285</updated>
+    </task>
+    <task id="LOCAL-00027" summary="css实现全屏背景">
+      <created>1672414775337</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1672414775337</updated>
+    </task>
+    <task id="LOCAL-00028" summary="css实现文字头像">
+      <created>1672572187363</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1672572187363</updated>
+    </task>
+    <task id="LOCAL-00029" summary="css实现会话布局">
+      <created>1672658563638</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1672658563638</updated>
+    </task>
+    <task id="LOCAL-00030" summary="css实现键盘快捷键">
+      <created>1672835925507</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1672835925507</updated>
+    </task>
+    <task id="LOCAL-00031" summary="css实现分层卡片">
+      <created>1672930679040</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1672930679040</updated>
+    </task>
+    <task id="LOCAL-00032" summary="css实现线条纸张">
+      <created>1673106667026</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1673106667026</updated>
+    </task>
+    <task id="LOCAL-00033" summary="css实现分类标签">
+      <created>1673192562108</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1673192562108</updated>
+    </task>
+    <task id="LOCAL-00034" summary="css实现遮罩层布局">
+      <created>1673271853484</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1673271853484</updated>
+    </task>
+    <task id="LOCAL-00035" summary="css实现价格标签">
+      <created>1673362874770</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1673362874770</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,15 +345,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="常用的CSS主流布局案例" />
-    <MESSAGE value="css实现不同方向箭头" />
-    <MESSAGE value="css实现头像布局" />
-    <MESSAGE value="css实现头像列表布局" />
-    <MESSAGE value="css实现徽章效果" />
-    <MESSAGE value="css实现单张卡片效果" />
-    <MESSAGE value="css实现元素水平垂直居中" />
-    <MESSAGE value="css实现关闭按钮" />
-    <MESSAGE value="css实现颜色开关" />
     <MESSAGE value="css实现凹角布局" />
     <MESSAGE value="css实现网站底部通栏横幅" />
     <MESSAGE value="css实现拐角丝带" />
@@ -255,6 +357,19 @@
     <MESSAGE value="css实现尾部文字衰减" />
     <MESSAGE value="css实现分类导航" />
     <MESSAGE value="css实现左右列表布局" />
-    <option name="LAST_COMMIT_MESSAGE" value="css实现左右列表布局" />
+    <MESSAGE value="ide-update" />
+    <MESSAGE value="css实现拐角三角形" />
+    <MESSAGE value="css实现右侧悬浮菜单" />
+    <MESSAGE value="css实现文件夹结构" />
+    <MESSAGE value="css实现全屏背景" />
+    <MESSAGE value="css实现文字头像" />
+    <MESSAGE value="css实现会话布局" />
+    <MESSAGE value="css实现键盘快捷键" />
+    <MESSAGE value="css实现分层卡片" />
+    <MESSAGE value="css实现线条纸张" />
+    <MESSAGE value="css实现分类标签" />
+    <MESSAGE value="css实现遮罩层布局" />
+    <MESSAGE value="css实现价格标签" />
+    <option name="LAST_COMMIT_MESSAGE" value="css实现价格标签" />
   </component>
 </project>
