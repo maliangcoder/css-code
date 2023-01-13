@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻列表</title>
+  <style>
+    body,
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    ul li {
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      border-bottom: 1px dashed #ddd;
+      margin: 0;
+      padding: 8px 0;
+    }
+    ul li .title {
+      overflow: hidden;
+      white-space: normal;
+      text-overflow: ellipsis;
+    }
+    ul li .date {
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+<ul>
+  <li>
+    <div class="title">新闻标题</div>
+    <div class="date">2022-05-31</div>
+  </li>
+  <li>
+    <div class="title">新闻标题</div>
+    <div class="date">2022-05-31</div>
+  </li>
+  <li>
+    <div class="title">新闻标题</div>
+    <div class="date">2022-05-31</div>
+  </li>
+</ul>
+</body>
+</html>
