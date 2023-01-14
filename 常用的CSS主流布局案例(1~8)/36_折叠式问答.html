@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>折叠式问答</title>
+    <style>
+        .item{
+            border-bottom: 1px solid #ddd;
+            margin: 5px 10px;
+        }
+        .item-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .item-answer {
+            display: none;
+            padding-left: 20px;
+            font-size: 14px;
+        }
+        .item-head .icon {
+            width: 32px;
+            height: 32px;
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAZdJREFUWEftlDFLw0AYht/v6uCg4ODg4CDkLgTrIHRwcBAROjg4uJjODv4P/4KbuKuL4ODgIOogOjg4KKS9BBwcBB0cOkixPblyhVrSJmkT6pCM4e59n3u4+whj/mjM/cgBcgO5gf9lwPO86UKhcA2glNF8uG80GuVisVjv5P8xIKXcBXCUUXk7loj2OOeH/QAWAbxkCQBgXQhxEwqgfwZBsN1qtU4BTKQM8sMY27Es66w7N/QSSim3AGiIyZQgvgG4Qojz3ry+ryAIgk1jYmpEiLpSyrVt+yIsZ+AzlFKWjYmZISG+zMkv++2PnAPVanWDMXYCYDYhxCdjzLUs62rQvkgAvVlKuQZAQ8zFhHg3J7+NWh8LQIf4vr+qlNIQ8xGhb0Tkcs7vosrbcyHOos6aWq22ok0Q0ULohSJ6VUpVhBAPcXMTARgTJWOC95T4zWaz4jjOY9zyxAa6TCwT0TEAx/zz9Mlt235KUj40gDGxpJQ6APBBRPuc8+ek5SMBDFOWeBClVTLyHMgSJPErSBsmB8gNjN3AL7/pcCEIl6kWAAAAAElFTkSuQmCC);
+            transform: rotate(-180deg);
+        }
+        .item-head .icon.down {
+            transform: rotate(0deg);
+        }
+        .item-answer--show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="item-head">
+                <div class="title">CSS如何实现样式的隔离</div>
+            </div>
+            <span class="icon"></span>
+        </div>
+        <div class="item-answer">...</div>
+    </div>
+    <div class="item">
+        <div class="title">设置元素水平和垂直居中的7种方法？</div>
+        <span class="icon down"></span>
+    </div>
+<div class="item-answer item-answer--show">
+    <p>flex...</p>
+    <p>position...</p>
+</div>
+</body>
+</html>
