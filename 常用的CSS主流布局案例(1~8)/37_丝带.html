@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>丝带</title>
+    <style>
+        .ribbon {
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #bbb;
+            position: relative;
+            margin: 100px 50px;
+        }
+        .ribbon::after,
+        .ribbon::before{
+            content: '';
+            border: 16px solid #ccc;
+            border-left-color: transparent;
+            position: absolute;
+            bottom: -8px;
+            z-index: -1;
+        }
+        .ribbon::before{
+            left: -24px;
+        }
+        .ribbon::after {
+            right: -24px;
+            transform: rotate(180deg);
+        }
+        .ribbon-triangle {
+            position: absolute;
+            top: 100%;
+            border: 8px solid transparent;
+            border-top-color: #aaa;
+        }
+        .ribbon-triangle--left {
+            border-right-width: 0;
+            left: 0;
+        }
+        .ribbon-triangle--right {
+            border-left-width: 0;
+            right: 0;
+        }
+
+    </style>
+</head>
+<body>
+<div class="ribbon">
+    <div class="ribbon-triangle ribbon-triangle--left"></div>
+    <div class="ribbon-triangle ribbon-triangle--right"></div>
+    hot......
+</div>
+</body>
+</html>
