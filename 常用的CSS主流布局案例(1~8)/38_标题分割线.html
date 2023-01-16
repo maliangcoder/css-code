@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标题分割线</title>
+    <style>
+        .container {
+            min-height: 150px;
+            width: 300px;
+            border: 1px solid #ddd;
+        }
+        .container .title {
+            margin: 0 10px;
+            height: 25px;
+            border-bottom: 1px solid #ddd;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+        .title-text {
+            height: 30px;
+            padding: 0 10px;
+            background: #ddd;
+            box-shadow: 0 0 0 5px #fff;
+            line-height: 30px;
+            text-align: center;
+            position: absolute;
+            top: 100%;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <div class="title-text">最新推荐</div>
+            </div>
+        ......
+    </div>
+
+</body>
+</html>
