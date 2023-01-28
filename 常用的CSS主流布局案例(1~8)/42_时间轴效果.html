@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时间轴效果</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: linear-gradient(to right, #fdf1d8, #b1bbf9);
+        }
+        h3 {
+            margin: 0;
+            font-weight: 400;
+        }
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .time-axis {
+            width: 804px;
+            margin: 50px auto 0;
+        }
+        .time-axis .left {
+            width: 400px;
+            float: left;
+            border-right: 4px solid #b1bbf9;
+            position: relative;
+        }
+        .time-axis .right {
+            width: 400px;
+            float: right;
+            border-left: 4px solid #b1bbf9;
+            position: relative;
+        }
+        .time-axis .dot {
+            width: 10px;
+            height: 10px;
+            background-color: #fff;
+            display: block;
+            border: 2px solid #b1bbf9;
+            border-radius: 7px;
+            position: absolute;
+            top: 50%;
+            margin-top: -7px;
+        }
+        .time-axis .left .dot {
+            right: -9px;
+        }
+        .time-axis .right .dot {
+            left: -9px;
+        }
+        .time-axis .jiantou {
+            width: 32px;
+            height: 32px;
+            display: block;
+            position: absolute;
+            top: 50%;
+            margin-top: -16px;
+        }
+        .time-axis .left .jiantou {
+            right: 0;
+            /*background: url();*/
+        }
+        .time-axis .right .jiantou {
+            left: 0;
+            /*background: url();*/
+        }
+        .time-axis .con {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .time-axis .left .con {
+            margin-right: 22px;
+        }
+        .time-axis .right .con {
+            margin-right: 22px;
+        }
+    </style>
+</head>
+<body>
+<div class="time-axis clearfix">
+    <div class="left">
+        <span class="dot"></span>
+        <span class="jiantou"></span>
+        <div class="con">
+            <h3>时间轴内容在这里可以随便布局</h3>
+        </div>
+    </div>
+    <div class="right">
+        <span class="dot"></span>
+        <span class="jiantou"></span>
+        <div class="con">
+            <h3>时间轴内容在这里可以随便布局</h3>
+        </div>
+    </div>
+</div>
+</body>
+</html>
