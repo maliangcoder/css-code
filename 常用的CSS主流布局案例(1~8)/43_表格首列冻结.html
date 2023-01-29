@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格首列冻结</title>
+    <style>
+        .container {
+            position: relative;
+            width: 400px;
+        }
+        .scroll {
+            overflow-x: scroll;
+        }
+        .container table {
+            border-collapse: collapse;
+        }
+        .container table tr th {
+            min-width: 100px;
+        }
+        .container table tr td,
+        table tr th {
+            border: 1px solid #333;
+            text-align: center;
+            font-weight: 400;
+        }
+        table.header {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        table.header tr td,
+        table.header tr th {
+            background-color: #ddd;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="scroll">
+        <table>
+            <thead>
+            <tr>
+                <th class="header">分类</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+            </tr>
+            <tr>
+                <td>排行</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            </thead>
+        </table>
+    </div>
+    <table class="header">
+        <thead>
+        <tr>
+            <th class="">分类</th>
+        </tr>
+        <tr>
+            <th class="">排行</th>
+        </tr>
+        </thead>
+    </table>
+</div>
+</body>
+</html>
