@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>泪滴效果</title>
+  <style>
+    .teardrop {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 64px;
+      width: 64px;
+      border-radius: 0 50% 50% 50%;
+      transform: rotate(45deg);
+      background-image: linear-gradient(
+        rgb(246,69,0.8),
+        rgb(246,69,0.9),
+        rgb(246,69,0.7)
+      );
+      margin-top: 20px;
+    }
+    .teardrop-content {
+      transform: rotate(-45deg);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+<div class="teardrop">
+  <div class="teardrop-content">热销</div>
+</div>
+</body>
+</html>
