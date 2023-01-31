@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D效果</title>
+  <style>
+    :root {
+      --three-dimensions-card-left-side-width: 16px
+    }
+    .three-dimensions-card {
+      position: relative;
+      min-height: 100px;
+      width: 300px;
+      margin: 50px auto;
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+    .three-dimensions-card::before {
+      content: "";
+      background: #ddd;
+      position: absolute;
+      top: var(--three-dimensions-card-left-side-width);
+      left: 0;
+      transform: translate(-100%,0);
+      transform-origin: left top;
+      height: 100%;
+      width: var(--three-dimensions-card-left-side-width);
+    }
+    .three-dimensions-card::after {
+      background: rgba(0,0,0,0.3);
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: translate(0,100%) skewX(-45deg);
+      transform-origin: left top;
+      height: var(--three-dimensions-card-left-side-width);
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="three-dimensions-card">
+    ...
+  </div>
+</body>
+</html>
