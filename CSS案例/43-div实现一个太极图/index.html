@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div实现一个太极图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: aquamarine;
+            box-sizing: border-box;
+        }
+
+        .box {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 200px auto;
+            background: linear-gradient(to right, black 50%, white 50%);
+            border-radius: 50%;
+            animation: rotate 3000ms forwards infinite linear;
+        }
+        .box::before,
+        .box::after {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+        }
+        .box::before {
+            background-color: white;
+            border: 65px solid black;
+            top: 25%;
+        }
+        .box::after {
+            background-color: black;
+            border: 65px solid white;
+            top: 75%;
+        }
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>
