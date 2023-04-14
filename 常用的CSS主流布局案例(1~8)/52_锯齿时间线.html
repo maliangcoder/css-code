@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>锯齿时间线</title>
+    <style>
+        .timeline-item {
+            position: relative;
+            border-bottom: 1px solid #71717a;
+            width: 50%;
+            margin: 0 auto;
+            min-height: 100px;
+            padding: 0px 20px;
+        }
+        /* 绘制圆点样式 */
+        .timeline-item::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            height: 2rem;
+            width: 2rem;
+            border-radius: 50%;
+            background: #71717a;
+            background-color: red;
+        }
+        /* 偶数项，画左边线 */
+        .timeline-item:nth-child(2n){
+            border-left: 1px solid #71717a;
+        }
+        /* 偶数项，圆点位置 靠左垂直居中 */
+        .timeline-item:nth-child(2n)::after {
+            left: 0;
+            transform: translate(-50%,-50%);
+        }
+        /* 奇数项，画右边线 */
+        .timeline-item:nth-child(2n + 1) {
+            border-right: 1px solid #71717a;
+        }
+        /* 奇数项，圆点位置 靠右垂直居中 */
+        .timeline-item:nth-child(2n + 1)::after{
+            right: 0;
+            transform: translate(50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="timeline-item">......</div>
+    <div class="timeline-item">......</div>
+</body>
+</html>
