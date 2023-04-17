@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css-实现响应式卡片效果</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #444;
+            min-height: 800px;
+        }
+        .container {
+            position: relative;
+            width: 1100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+        .container .card {
+            position: relative;
+            max-width: 300px;
+            height: 215px;
+            background-color: #fff;
+            margin: 30px 10px;
+            padding: 20px 15px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            transition: 0.3s ease-in-out;
+            border-radius: 15px;
+        }
+        .container .card:hover {
+            height: 320px;
+        }
+        .container .card .image {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            top: -40%;
+            left: 8px;
+            /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); */
+            z-index: 1;
+        }
+        .container .card .image img {
+            max-width: 100%;
+            border-radius: 15px;
+        }
+        .container .card .content {
+            position: relative;
+            top: -140px;
+            padding: 10px 15px;
+            color: #111;
+            text-align: center;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+        }
+        .container .card:hover .content {
+            margin-top: 30px;
+            visibility: visible;
+            opacity: 1;
+            transition-delay: 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img href="http://www.webqdkf.com" src="https://n.sinaimg.cn/sports/transform/215/w650h365/20230110/5478-74e306300287437f783a060a64de2195.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>一个人最好的状态</h3>
+                <p>有句话说：“当你独自穿过了暴风雨，你就不是原来的那个人了。”经历过生活历练的人，最终都变成了更强大的自己。生活中，我们要学会清空情绪，清零往事、清净内心</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
