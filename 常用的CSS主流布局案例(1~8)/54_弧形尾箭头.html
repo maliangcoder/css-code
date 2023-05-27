@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>弧形尾箭头</title>
+  <style>
+    .curvedarrow {
+      position: relative;
+      width: 0;
+      border-top: 90px solid transparent;
+      border-right: 90px solid red;
+      transform: rotate(10deg) translateX(100%);
+    }
+    .curvedarrow::after {
+      width: 120px;
+      height: 120px;
+      content: "";
+      position: absolute;
+      border: 0px solid transparent;
+      border-top: 30px solid red;
+      border-radius: 200px 0 0 0;
+      top: -110px;
+      left: -90px;
+      transform: rotate(45deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="curvedarrow"></div>
+</body>
+</html>
