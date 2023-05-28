@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>弹窗效果</title>
+  <style>
+    .modal {
+      border: 1px solid #333;
+      border-radius: 4px;
+      padding: 10px;
+    }
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #333;
+    }
+    .modal-header span {
+      position: relative;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+    /* 关闭按钮 */
+    .modal-header span::after,
+    .modal-header span::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      display: inline-block;
+      width: 20px;
+      height: 1px;
+      background-color: #333;
+    }
+    .modal-header span::after {
+      transform: rotate(45deg);
+    }
+    .modal-header span::before {
+      transform: rotate(-45deg);
+    }
+    .modal-content {
+      min-height: 100px;
+    }
+    .modal-footer {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .modal-footer button {
+      width: 100px;
+      height: 35px;
+      margin-right: 10px;
+      background-color: tomato;
+      color: #FFF;
+      border: none;
+    }
+    .modal-footer button.cancel {
+      background-color: #DDD;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="modal">
+    <!-- 弹窗标题与关闭按钮 -->
+    <div class="modal-header">
+      <h3>登录</h3>
+      <span></span>
+    </div>
+    <!-- 弹窗内容 -->
+    <div class="modal-content">...</div>
+    <!-- 底部按钮 -->
+    <div class="modal-footer">
+      <button>确定</button>
+      <button class="cancel">取消</button>
+    </div>
+  </div>
+</body>
+</html>
